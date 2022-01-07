@@ -30,7 +30,7 @@ var countdown = setInterval(function() {
     //when countdown ends, write "Under Construction"
     if (interval < 0) {
         clearInterval(countdown);
-        document.getElementById("wrapper").innerHTML = "Under Construction";
+        document.getElementById("wrapper").innerHTML = "jaguar stinks";
         document.getElementById("wrapper").style.color = "#ff0";
         document.getElementById("wrapper").style.fontSize = "2.25em";
     }
